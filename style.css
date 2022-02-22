@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS;
+}
+
+body {
+	background: url("bg.jpg");
+	background-size: 10%;
+}
+
+hr {
+	height: 1px;
+	color: black;
+	background: black;
+}
+
+.container {
+	color: red;
+	box-shadow: 0 0 5px beige;
+	padding: 0.3em;
+	border: 2px solid black;
+	border-width: 0 2px 0 2px;
+	text-shadow: 0 0 4px green;
+	margin: 0 15% 0 15%;
+	background: url("mar.jpg");
+	background-size: 20%;
+	border-radius: 0 0 5px 5px;
+}
+
+.gallery {
+	background-color: blue;
+	padding: .5em;
+}
+
+.gallery img {
+	border: 1px;
+	border-width: 1px 1px 1px 1px;
+	border-color: white;
+	border-style: solid;
+}
+
+a {
+	color: yellow !important;
+}
+
+.popup {
+	background: white;
+	padding: 5px;
+	margin-left: calc(50% - 150px);
+	width: 300px;
+	height: 300px;
+	border: 1px solid green;
+}
+
+.pdv {
+	background: black;
+	border-top: 1px solid white;
+	padding: .5em 0 .5em 0;
+	border-radius: 8px 8px 0 0;
+	font-size: small;
+	color: white;
+}
+
+.pdv center hr {
+	width: 25%;
+	border: 0;
+	background: white !important;
+	margin: 5px 0px 5px 0px;
+}
+
+.pdv center p {
+	font-family: Arial !important;
+}
